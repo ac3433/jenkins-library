@@ -2,7 +2,7 @@ import groovy.transform.Field
 
 
 @Field String STEP_NAME = getClass().getName()
-@Field String METADATA_FILE = 'metadata/gctsDeploy.yaml'
+@Field String METADATA_FILE = 'metadata/gctsDeployCommit.yaml'
 
 void call(Map parameters = [:]) {
         List credentials = [
